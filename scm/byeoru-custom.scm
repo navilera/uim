@@ -40,6 +40,10 @@
 
 (define byeoru-layout-alist
   (list
+   (list 'byeoru-layout-3-18Na
+	 #f				; 3-18compat can not be orderless.
+	 (N_ "Hangul 3-18Na")
+	 (N_ "Hangul 3-18Na keyboard that is compatable as 2-beol KR standard"))
    (list 'byeoru-layout-hangul2
 	 #f				; 2-beol can not be orderless.
 	 (N_ "Hangul 2-beol Windows")
